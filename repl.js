@@ -4,4 +4,5 @@ const local = repl.start("$");
 
 local.on('exit',()=>{
     console.log('exiting REPL');
+    process.exit();
 })
